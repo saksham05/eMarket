@@ -6,7 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EMarket.Controllers
 {
-
+    [Produces("application/json")]
+    [Route("api/[controller]")]
+    [ApiController]
     public class HomeController : Controller
     {
         public IActionResult Index()
