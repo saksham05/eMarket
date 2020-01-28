@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-function ProductPrice() {
-    return (
-        <p>AUD 12</p>
-    )
+class ProductPrice extends Component {
+    render() {
+        return (
+            <p>AUD 12</p>
+        )    
+    }
 }
 
 export default ProductPrice

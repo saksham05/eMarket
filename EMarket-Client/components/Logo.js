@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-function Logo() {
-    return (
-        <img src ="./assests/logo.jpg" style = {{height: 100, width: 100}} />
-    )
+class Logo extends Component {
+    render() {
+        return (
+            <img src ="./assests/logo.jpg" style = {{height: 100, width: 100}} />
+        )
+    }
 }
 
 export default Logo

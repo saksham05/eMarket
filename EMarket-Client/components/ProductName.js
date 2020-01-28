@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-function ProductName() {
-    return (
-        <p>Something</p>
-    )
+class ProductName extends Component {
+    render() {
+        return (
+            <p>Something</p>
+        )
+    }
 }
 
 export default ProductName

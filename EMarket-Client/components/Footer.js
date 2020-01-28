@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-function Footer() {
-    return (
-        <footer style={{backgroundColor:'lightgreen'}}>My foot</footer>
-    )
+class Footer extends Component {
+    render() {
+        return (
+            <footer style={{backgroundColor:'lightgreen'}}>My foot</footer>
+        )
+    }
 }
 
 export default Footer

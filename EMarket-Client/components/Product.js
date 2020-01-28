@@ -1,15 +1,21 @@
-import React from 'react'
+import React, {Component} from 'react'
 
 import ProductImage from '../components/ProductImage'
 import ProductDetails from '../components/ProductDetails'
 
-function Product() {
-    return (
-        <div style={{padding:10, flexGrow: 1}}>
-            <ProductImage />
-            <ProductDetails />
-        </div>
-    )
+class Product extends Component {
+    buyTheProduct() {
+        console.log("Bought")
+    }
+    render() {
+        return (
+            <div style={{padding:10, flexGrow: 1}}>
+                <ProductImage />
+                <ProductDetails />
+                <button onClick = {this.buyTheProduct}>Buy</button>
+            </div>
+        )    
+    }
 }
 
 export default Product

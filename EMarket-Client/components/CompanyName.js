@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-function CompanyName() {
-    return (
-        <h1 style = {{paddingTop: 10}}>E-Market</h1>
-    )
+
+class CompanyName extends Component {
+    render() {
+        return (
+            <h1 style = {{paddingTop: 10}}>E-Market</h1>
+        )
+    }
 }
 
 export default CompanyName

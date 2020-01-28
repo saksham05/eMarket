@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-function ProductImage() {
-    return (
-        <img src="" style ={{height:250, width:250}}/>
-    )
+class ProductImage extends Component {
+    render() {
+        return (
+            <img src="" style ={{height:250, width:250}}/>
+        )
+    }
 }
 
 export default ProductImage

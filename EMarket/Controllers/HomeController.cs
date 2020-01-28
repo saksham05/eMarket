@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EMarket.Controllers
 {
+
     public class HomeController : Controller
     {
         public IActionResult Index()
